@@ -176,14 +176,8 @@ class RoundedImageWithTextAndBG extends StatelessWidget {
         ?.withOpacity(0.9);
 
     Color? hexColor;
-    try {
-      if (uniqueId != null) {
-        hexColor = getColorFromString(uniqueId ?? '');
-      }
-    } catch (e) {
-      if (kDebugMode) {
-        print('$uniqueId is not a valid radix string');
-      }
+    if (uniqueId != null) {
+      hexColor = getColorFromString(uniqueId ?? '');
     }
     return hexColor ?? _randomColor ?? Colors.black;
   }
@@ -221,6 +215,17 @@ class _InitialsWidget extends StatelessWidget {
   }
 }
 
+///To Get Color from String
+///Send Radix 16 String as Param For e.g. 'ac170002-7446-1152-8174-46096d7f0000'
 Color getColorFromString(String radix16String) {
-  return Color(StringToHex.toColor(radix16String));
+  ///Giving a default color if radix16String is not valid
+  Color hexColor = Colors.blue;
+  try {
+    hexColor = Color(StringToHex.toColor(radix16String));
+  } catch (e) {
+    if (kDebugMode) {
+      print('$radix16String is not a valid radix string');
+    }
+  }
+  return hexColor;
 }
