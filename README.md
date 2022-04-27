@@ -12,13 +12,19 @@ and the Flutter guide for
 -->
 
 This package is meant to be use for getting Rounded Clip User Image Tile, 
-It can be use full in multiple way
+It can be used in multiple way
 
-1. If Network image in not getting loaded and wanted to show a background with random color and initials of user name on center of it
+1. If Network image in not getting loaded and wanted to show a background with random color and initials of user name on center of it.
 
-2. If wanted to change the user image to selected icon or any other widget just like Gmail.
+2. If want to update the user image to selected icon or any other widget just like Gmail.
 
 3. It can generate random color which won't be change on refresh if valid radix 16 [uniqueId] id is provided.
+
+
+![rounded-image-with-textbg](https://user-images.githubusercontent.com/49837673/165495992-f3204456-6b3c-4663-b740-20ded15a4e4e.gif)
+
+
+
 
 ## Features
 
