@@ -24,7 +24,7 @@ It can be used in multiple way
 ![rounded-image-with-textbg](https://user-images.githubusercontent.com/49837673/165495992-f3204456-6b3c-4663-b740-20ded15a4e4e.gif)
 
 
-
+## Rounded Background With Random Color which persist on Refresh. Perfact Placeholder for User Tiles with initials
 
 ## Features
 
