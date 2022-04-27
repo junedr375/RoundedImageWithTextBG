@@ -10,6 +10,7 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
+## Rounded Background With Random Color which persist on Refresh. Perfact Placeholder for User Tiles with initials
 
 This package is meant to be use for getting Rounded Clip User Image Tile, 
 It can be used in multiple way
@@ -24,7 +25,6 @@ It can be used in multiple way
 ![rounded-image-with-textbg](https://user-images.githubusercontent.com/49837673/165495992-f3204456-6b3c-4663-b740-20ded15a4e4e.gif)
 
 
-## Rounded Background With Random Color which persist on Refresh. Perfact Placeholder for User Tiles with initials
 
 ## Features
 
